@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient( rgba(66, 66, 66, 0.5), rgba(66, 66, 66, 0.5) ), url(../img/background-img.jpg);
+    background: linear-gradient( rgba(66, 66, 66, 0.5), rgba(66, 66, 66, 0.5) ), url(../img/background-img.jpg) no-repeat;
     color: white;
     font-family: Hind, sans-serif;
 }
@@ -36,7 +36,7 @@ h1{
     left: 550px; 
     top: 400px;
 }
-.main_text{
+.head-title_text{
     position: absolute;
     left: 680px; 
     top: 550px;   
@@ -50,15 +50,138 @@ h1{
     top: 700px;
     color: black;
 }
-img{
+.triangle{
     position: absolute;
     width: 30px;
     height: 30px;
     left: 30px;
     top: 30px;
 }
-.main-video-text{
+.video-text{
     position: absolute;
     left: 70px;
     top: 20px;
+}
+.main-block-one{
+    position: absolute;
+    background: white;
+    background-size: 500px;
+    left: 0px;
+    height: 1000px;
+    width: 100%;
+    top: 1000px;
+    color: black;
+}
+.headline{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.block-one-text{
+    width: 900px;
+    text-align: center;
+    margin-left: 500px;
+    color: grey;
+}
+.workspace_img{
+    position: absolute;
+    width: 500px;
+    left: 150px;
+    top: 400px;
+}
+.under-img{
+    position: absolute;
+    left: 150px;
+    top: 750px;
+}
+.under-img-one{
+    position: absolute;
+    left: 300px;
+    top: 752px;
+    color: gray;
+    font-size: 15px;
+}
+.text-under-img{
+    position: absolute;
+    left: 150px;
+    top: 800px;
+    color: gray;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+}
+.more-info{
+    color: rgb(87, 87, 87);
+    position: absolute;
+    left: 150px;
+    top: 830px;
+    font-weight: bold;
+}
+.min-workspace_img{
+    position: absolute;
+    width: 500px;
+    left: 700px;
+    top: 400px;
+}
+.min-under-img{
+    position: absolute;
+    left: 700px;
+    top: 750px;
+}
+.min-under-img-one{
+    position: absolute;
+    left: 850px;
+    top: 752px;
+    color: gray;
+    font-size: 15px;
+}
+.min-text-under-img{
+    position: absolute;
+    left: 700px;
+    top: 800px;
+    color: gray;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+}
+.min-more-info{
+    color: rgb(87, 87, 87);
+    position: absolute;
+    left: 700px;
+    top: 830px;
+    font-weight: bold;
+}
+.st-workspace_img{
+    position: absolute;
+    width: 500px;
+    left: 1250px;
+    top: 400px;
+}
+.st-under-img{
+    position: absolute;
+    left: 1250px;
+    top: 750px;
+}
+.st-under-img-one{
+    position: absolute;
+    left: 1400px;
+    top: 752px;
+    color: gray;
+    font-size: 15px;
+}
+.st-text-under-img{
+    position: absolute;
+    left: 1250px;
+    top: 800px;
+    color: gray;
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+}
+.st-more-info{
+    color: rgb(87, 87, 87);
+    position: absolute;
+    left: 1250px;
+    top: 830px;
+    font-weight: bold;
 }
