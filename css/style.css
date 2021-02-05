@@ -1,28 +1,34 @@
-body{
-    background: linear-gradient( rgba(66, 66, 66, 0.5), rgba(66, 66, 66, 0.5) ), url(../img/background-img.jpg) no-repeat;
+body {
+    background: linear-gradient(rgba(66, 66, 66, 0.5), rgba(66, 66, 66, 0.5)), url(../img/background-img.jpg) no-repeat;
     color: white;
     font-family: Hind, sans-serif;
+    margin: 0px;
 }
-span{
+
+span {
     color: rgb(88, 190, 221);
 }
-.logo{
+
+.logo {
     position: absolute;
     font-size: 40px;
     left: 150px;
     top: 50px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     display: inline-block;
     width: 120px;
     margin-top: 85px;
 }
-.nav a:nth-child(1){
+
+.nav a:nth-child(1) {
     margin-left: 980px;
 }
-.line{
+
+.line {
     width: 100%;
     left: 0px;
     height: 1px;
@@ -30,18 +36,21 @@ a{
     position: absolute;
     top: 180px;
 }
-h1{
-    font-size: 70px;  
+
+h1 {
+    font-size: 70px;
     position: absolute;
-    left: 550px; 
+    left: 550px;
     top: 400px;
 }
-.head-title_text{
+
+.head-title_text {
     position: absolute;
-    left: 680px; 
-    top: 550px;   
+    left: 680px;
+    top: 550px;
 }
-.video{
+
+.video {
     background: white;
     width: 300px;
     height: 90px;
@@ -50,58 +59,67 @@ h1{
     top: 700px;
     color: black;
 }
-.triangle{
+
+.triangle {
     position: absolute;
     width: 30px;
     height: 30px;
     left: 30px;
     top: 30px;
 }
-.video-text{
+
+.video-text {
     position: absolute;
     left: 70px;
     top: 20px;
 }
-.main-block-one{
+
+.main-products {
     position: absolute;
     background: white;
     background-size: 500px;
     left: 0px;
-    height: 1000px;
+    height: 5000px;
     width: 100%;
     top: 1000px;
     color: black;
 }
-.headline{
+
+.headline {
     text-align: center;
     margin-top: 200px;
     font-size: 30px;
 }
-.block-one-text{
+
+.block-one-text {
     width: 900px;
     text-align: center;
     margin-left: 500px;
     color: grey;
 }
-.workspace_img{
+
+.workspace_img {
     position: absolute;
     width: 500px;
     left: 150px;
     top: 400px;
 }
-.under-img{
+
+.title {
     position: absolute;
     left: 150px;
     top: 750px;
 }
-.under-img-one{
+
+.subtitle {
     position: absolute;
     left: 300px;
     top: 752px;
     color: gray;
     font-size: 15px;
 }
-.text-under-img{
+
+.text-work {
     position: absolute;
     left: 150px;
     top: 800px;
@@ -110,32 +128,37 @@ h1{
     text-align: justify;
     width: 500px;
 }
-.more-info{
+
+.more-info {
     color: rgb(87, 87, 87);
     position: absolute;
     left: 150px;
     top: 830px;
     font-weight: bold;
 }
-.min-workspace_img{
+
+.min-workspace_img {
     position: absolute;
     width: 500px;
     left: 700px;
     top: 400px;
 }
-.min-under-img{
+
+.min-title {
     position: absolute;
     left: 700px;
     top: 750px;
 }
-.min-under-img-one{
+
+.min-subtitle {
     position: absolute;
     left: 850px;
     top: 752px;
     color: gray;
     font-size: 15px;
 }
-.min-text-under-img{
+
+.text-min {
     position: absolute;
     left: 700px;
     top: 800px;
@@ -144,32 +167,37 @@ h1{
     text-align: justify;
     width: 500px;
 }
-.min-more-info{
+
+.min-more-info {
     color: rgb(87, 87, 87);
     position: absolute;
     left: 700px;
     top: 830px;
     font-weight: bold;
 }
-.st-workspace_img{
+
+.st-workspace_img {
     position: absolute;
     width: 500px;
     left: 1250px;
     top: 400px;
 }
-.st-under-img{
+
+.st-title {
     position: absolute;
     left: 1250px;
     top: 750px;
 }
-.st-under-img-one{
+
+.st-subtitle {
     position: absolute;
     left: 1400px;
     top: 752px;
     color: gray;
     font-size: 15px;
 }
-.st-text-under-img{
+
+.text-st {
     position: absolute;
     left: 1250px;
     top: 800px;
@@ -178,10 +206,245 @@ h1{
     text-align: justify;
     width: 500px;
 }
-.st-more-info{
+
+.st-more-info {
     color: rgb(87, 87, 87);
     position: absolute;
     left: 1250px;
     top: 830px;
     font-weight: bold;
+}
+
+.img-hand {
+    left: 50px;
+    float: left;
+    position: absolute;
+    top: 2100px;
+    width: 900px;
+}
+
+.img-coffe {
+    right: 50px;
+    left: 960px;
+    position: absolute;
+    top: 2100px;
+    width: 900px;
+}
+
+.art {
+    position: absolute;
+    border: 1px solid black;
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 2800px;
+    left: 200px;
+}
+
+.responsive {
+    position: absolute;
+    border: 1px solid black;
+    background: rgb(44, 217, 223);
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 2800px;
+    left: 710px;
+}
+
+.feature {
+    position: absolute;
+    border: 1px solid black;
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 2800px;
+    left: 1220px;
+}
+
+.useful {
+    position: absolute;
+    border: 1px solid black;
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 3160px;
+    left: 200px;
+}
+
+.fast {
+    position: absolute;
+    border: 1px solid black;
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 3160px;
+    left: 710px;
+}
+
+.free {
+    position: absolute;
+    border: 1px solid black;
+    background-size: 300px;
+    width: 500px;
+    height: 350px;
+    top: 3160px;
+    left: 1220px;
+}
+
+.art img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.art h3 {
+    color: black;
+    margin: 40px 0px 0px 60px;
+}
+
+.art p {
+    color: grey;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.art:hover img {
+    display: none;
+}
+
+.art:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
+}
+.responsive img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.responsive h3 {
+    color: white;
+    margin: 40px 0px 0px 60px;
+}
+
+.responsive p {
+    color: white;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.responsive:hover img {
+    display: none;
+}
+
+.responsive:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
+}
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.feature h3 {
+    color: black;
+    margin: 40px 0px 0px 60px;
+}
+
+.feature p {
+    color: grey;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.feature:hover img {
+    display: none;
+}
+
+.feature:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
+}
+.useful img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.useful h3 {
+    color: black;
+    margin: 40px 0px 0px 60px;
+}
+
+.useful p {
+    color: grey;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.useful:hover img {
+    display: none;
+}
+
+.useful:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
+}
+.fast img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.fast h3 {
+    color: black;
+    margin: 40px 0px 0px 60px;
+}
+
+.fast p {
+    color: grey;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.fast:hover img {
+    display: none;
+}
+
+.fast:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
+}
+.free img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 60px;
+}
+
+.free h3 {
+    color: black;
+    margin: 40px 0px 0px 60px;
+}
+
+.free p {
+    color: grey;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.free:hover img {
+    display: none;
+}
+
+.free:hover h3 {
+    margin-top: 120px;
+    transition: 2s;
 }
